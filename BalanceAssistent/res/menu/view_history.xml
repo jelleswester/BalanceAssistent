@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nl.mprog.jelleswester.balanceassistent.ViewHistory" >
+
+    <item
+        android:id="@+id/income"
+        android:orderInCategory="100"
+        android:title="@string/income"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/expense"
+        android:orderInCategory="100"
+        android:title="@string/expense"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/all"
+        android:orderInCategory="100"
+        android:title="@string/all"
+        app:showAsAction="never"/>
+    
+
+</menu>

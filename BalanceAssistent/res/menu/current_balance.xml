@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nl.mprog.jelleswester.balanceassistent.CurrentBalance" >
+
+    <item
+        android:id="@+id/set_balance"
+        android:orderInCategory="100"
+        android:title="@string/set_balance"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/add_income"
+        android:orderInCategory="100"
+        android:title="@string/add_income"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/subtract_expense"
+        android:orderInCategory="100"
+        android:title="@string/subtract_expense"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/view_history"
+        android:orderInCategory="100"
+        android:title="@string/view_history"
+        app:showAsAction="never"/>
+
+</menu>

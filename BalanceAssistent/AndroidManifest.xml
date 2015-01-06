@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.mprog.jelleswester.balanceassistent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".CurrentBalance"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetBalance"
+            android:label="@string/title_activity_set_balance" >
+        </activity>
+        <activity
+            android:name=".AddIncome"
+            android:label="@string/title_activity_add_income" >
+        </activity>
+        <activity
+            android:name=".SubtractExpense"
+            android:label="@string/title_activity_subtract_expense" >
+        </activity>
+        <activity
+            android:name=".ViewHistory"
+            android:label="@string/title_activity_view_history" >
+        </activity>
+        <activity
+            android:name=".DetailsBalance"
+            android:label="@string/title_activity_details_balance" >
+        </activity>
+        <activity
+            android:name=".SetBalance2"
+            android:label="@string/title_activity_set_balance2" >
+        </activity>
+        <activity
+            android:name=".SetBalance3"
+            android:label="@string/title_activity_set_balance3" >
+        </activity>
+    </application>
+
+</manifest>

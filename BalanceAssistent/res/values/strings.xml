@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BalanceAssistent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="view_details">View Details</string>
+    <string name="default_balance">1.000.000,00</string>
+    <string name="set_balance">Set Balance</string>
+    <string name="add_income">Add Income</string>
+    <string name="subtract_expense">Subtract Expense</string>
+    <string name="view_history">View History</string>
+    <string name="title_activity_set_balance">SetBalance</string>
+    <string name="title_activity_add_income">AddIncome</string>
+    <string name="title_activity_subtract_expense">SubtractExpense</string>
+    <string name="title_activity_view_history">ViewHistory</string>
+    <string name="title_activity_details_balance">DetailsBalance</string>
+    <string name="number_accounts">Number of bankaccounts:</string>
+    <string name="confirm">Confirm</string>
+    <string name="title_activity_set_balance2">SetBalance2</string>
+    <string name="title_activity_set_balance3">SetBalance3</string>
+    <string name="info_accounts">Enter the name and balance of each account</string>
+    <string name="set_cash">Enter the amount of your current cash</string>
+    <string name="cash">Cash:</string>
+    <string name="what">What:</string>
+    <string name="to">To:</string>
+    <string name="amount">Amount:</string>
+    <string name="loan">loan..</string>
+    <string name="from">From:</string>
+    <string name="electricity">electricity</string>
+    <string name="income">income</string>
+    <string name="expense">expense</string>
+    <string name="all">all</string>
+    <string name="overview">Overview</string>
+    <string name="back">Back</string>
+
+</resources>
